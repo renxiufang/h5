@@ -144,11 +144,12 @@ html, body {
 }
 
 .slide1 .web {
-    width: 2.4rem;
-    height: 0.26rem;
-    background: url("../img/web.png") no-repeat;
+    width: 2.3rem;
+    /*height: 0.26rem;*/
     position: absolute;
-    background-size: cover;
+    text-align: center;
+    color:#fff;
+    font-size: 0.32rem;
     top: 7.34rem;
     left: 2.02rem;
     z-index: 10;
