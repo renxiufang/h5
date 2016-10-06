@@ -41,7 +41,7 @@ html, body {
     background-size: cover;
     z-index: 20;
     position: absolute;
-    bottom: 0.4rem;
+    bottom: 0.5rem;
     left: 3.05rem;
     -webkit-animation: upMove 1.6s linear 1s 1 both;
     animation: upMove 1.6s linear 1s 1 both;
@@ -79,7 +79,7 @@ html, body {
 
 .slide1 .head-box {
     position: absolute;
-    top: 1.6rem;
+    top: 1.3rem;
     left: 1.55rem;
     z-index: 10;
     width: 3.3rem;
@@ -127,7 +127,7 @@ html, body {
     background: url("../img/ren.png") no-repeat;
     position: absolute;
     background-size: cover;
-    top: 5.64rem;
+    top: 5.34rem;
     left: 1.99rem;
     z-index: 10;
 }
@@ -138,18 +138,18 @@ html, body {
     background: url("../img/resume.png") no-repeat;
     position: absolute;
     background-size: cover;
-    top: 6.7rem;
+    top: 6.4rem;
     left: 1.99rem;
     z-index: 10;
 }
 
 .slide1 .web {
     width: 2.4rem;
-    height: 0.22rem;
+    height: 0.26rem;
     background: url("../img/web.png") no-repeat;
     position: absolute;
     background-size: cover;
-    top: 7.64rem;
+    top: 7.34rem;
     left: 2.02rem;
     z-index: 10;
 }
@@ -160,7 +160,7 @@ html, body {
     background: url("../img/plane.png") no-repeat;
     background-size: cover;
     position: absolute;
-    top: 8.4rem;
+    top: 8.1rem;
     left: 1.6rem;
     z-index: 10;
 }
@@ -174,7 +174,7 @@ html, body {
 }
 
 .slide2 .content2 {
-    margin-top: 1.2rem;
+    margin-top: 1rem;
 }
 
 .slide2 ul {
@@ -237,7 +237,7 @@ html, body {
 
 .slide3 .content3 .head {
     width: 100%;
-    height: 3.3rem;
+    height: 3rem;
     position: relative;
 }
 
@@ -247,7 +247,7 @@ html, body {
     background: url("../img/ren.png") no-repeat;
     background-size: cover;
     position: absolute;
-    top: 1.88rem;
+    top: 1.8rem;
     left: 2rem;
 }
 
@@ -269,7 +269,7 @@ html, body {
 
 .slide3 .content3 .info {
     /*font-family: '方正兰亭黑简体 微软雅黑';*/
-    padding: 0.6rem 0 0 1.3rem;
+    padding: 0.5rem 0 0 1.3rem;
 }
 
 .slide3 .content3 .info p {
@@ -328,7 +328,7 @@ html, body {
 
 .slide4 .content4 .topBg {
     width: 100%;
-    height: 2.5rem;
+    height: 2.3rem;
     background: #8bc151;
 }
 
@@ -338,7 +338,7 @@ html, body {
     border-radius: 50%;
     background: #fff;
     position: absolute;
-    top: 1.18rem;
+    top: 1rem;
     left: 2.02rem;
     border: 4px solid #8bc151;
     z-index: 4;
@@ -357,7 +357,7 @@ html, body {
     background-size: cover;
     position: absolute;
     left: 2.14rem;
-    top: 3.9rem;
+    top: 3.7rem;
 }
 
 .slide4 .content4 .bg {
@@ -369,7 +369,7 @@ html, body {
 
 .slide4 .content4 ul {
     position: absolute;
-    top: 4.8rem;
+    top: 4.7rem;
     left: 0.8rem;
     z-index: 10;
 }
@@ -1095,11 +1095,11 @@ html, body {
     }
     50% {
         opacity: 1;
-        bottom: 0.42rem;
+        bottom: 0.52rem;
     }
     100% {
         opacity: 0;
-        bottom: 0.44rem;
+        bottom: 0.54rem;
     }
 }
 
