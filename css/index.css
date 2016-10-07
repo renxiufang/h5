@@ -39,7 +39,7 @@ html, body {
     height: 0.2rem;
     background: url("../img/up2.png") no-repeat;
     background-size: cover;
-    z-index: 20;
+    z-index: 2222;
     position: absolute;
     bottom: 0.5rem;
     left: 3.05rem;
