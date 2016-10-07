@@ -21,7 +21,7 @@ html, body {
     position: absolute;
     top: 0.2rem;
     right: 0.2rem;
-    z-index: 1111;
+    z-index: 2222;
     background: url(../audio/music.svg) no-repeat;
     background-size: cover;
     opacity: 0;
@@ -175,7 +175,8 @@ html, body {
 }
 
 .slide2 .content2 {
-    margin-top: 1.2rem;
+    position: absolute;
+    top:12%;
 }
 
 .slide2 ul {

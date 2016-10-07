@@ -13,12 +13,12 @@
         html {
             font-size: 100px;
         }
-        @media (min-width: 411px) and (max-height: 731px) {
+        @media (max-height: 731px) {
             .slide1 .plane {
                 display: none;
             }
             .slide2 .content2 {
-                margin-top: 0.7rem;
+                top: 7%;
             }
             .slide3 .content3 .head {
                 height: 2.6rem;
@@ -50,13 +50,13 @@
                 top: 2rem;
             }
         }
-        @media (min-width: 320px) and (max-height: 480px) {
+        @media (max-height: 480px) {
             .slide1 .plane {
                 display: none;
             }
 
             .slide2 .content2 {
-                margin-top: 0.5rem;
+               top: 5%;
             }
 
             .slide3 .content3 .head {
@@ -95,11 +95,17 @@
     </style>
     <script>
         //REM适配
-        ~(function (desW) {
-            var winW = document.documentElement.clientWidth;
-            var n = winW / desW;
-            document.documentElement.style.fontSize = n * 100 + "px";
-        })(640);
+        ~function () {
+            var desW = 320,
+                    winW = document.documentElement.clientWidth,
+                    oMain = document.querySelector('.main');
+            if (winW > 640) {
+                oMain.style.width = 640 + 'px';
+                document.documentElement.style.fontSize = '100px';
+                return;
+            }
+            document.documentElement.style.fontSize = winW / desW * 50 + 'px';
+        }();
     </script>
 </head>
 <body>
