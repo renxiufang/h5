@@ -21,7 +21,7 @@ html, body {
     position: absolute;
     top: 0.2rem;
     right: 0.2rem;
-    z-index: 2222;
+    z-index: 3333;
     background: url(../audio/music.svg) no-repeat;
     background-size: cover;
     opacity: 0;
